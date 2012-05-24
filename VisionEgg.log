@@ -1,0 +1,9 @@
+2012-05-24 12:40:05,292 (4416) INFO: Script C:\Users\Emma Ferneyhough\Documents\Git\SART-with-Feedback\SART_Fdbk_training.py started Vision Egg 1.2.1 with process id 4416.
+2012-05-24 12:40:31,848 (4656) INFO: Script C:\Users\Emma Ferneyhough\Documents\Git\SART-with-Feedback\SART_Fdbk_training.py started Vision Egg 1.2.1 with process id 4656.
+2012-05-24 12:40:44,459 (4344) INFO: Script C:\Users\Emma Ferneyhough\Documents\Git\SART-with-Feedback\SART_Fdbk_training.py started Vision Egg 1.2.1 with process id 4344.
+2012-05-24 12:41:18,161 (2072) INFO: Script C:\Users\Emma Ferneyhough\Documents\Git\SART-with-Feedback\SART_Fdbk_training.py started Vision Egg 1.2.1 with process id 2072.
+2012-05-24 12:50:46,204 (1396) INFO: Script C:\Users\Emma Ferneyhough\Documents\Git\SART-with-Feedback\SART_Fdbk_training.py started Vision Egg 1.2.1 with process id 1396.
+2012-05-24 12:51:00,923 (1396) INFO: Requesting window 1152 x 864 32 bpp (8 8 8 0 RGBA).
+2012-05-24 12:51:03,283 (1396) INFO: OpenGL 4.1.10367 Compatibility Profile Context, AMD Radeon HD 6310 Graphics , ATI Technologies Inc. (PyOpenGL 3.0.1)
+2012-05-24 12:51:03,302 (1396) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-05-24 12:51:03,638 (1396) WARNING: Unable to detect or automatically synchronize buffer swapping with vertical retrace. May be possible by manually adjusting video drivers. (Look for 'Enable Vertical Sync' or similar.) If buffer swapping is not synchronized, frame by frame control will not be possible. Because of this, you will probably get a warning about calculated frames per second different than specified.

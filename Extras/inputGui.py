@@ -23,10 +23,9 @@ class getInput(AppWindow):
     	tmp = self.taskMap[self.block.get()].split(".")
     	inFile = tmp[0]
         self.outputFile = "Data" + dirStr + "sub" + self.subNum.get() + "_" + inFile + ".csv"
-##        self.outputFile = "Data" + dirStr + "sub" + self.subNum.get() + "_" + exptName + "_" + inFile + ".csv"
         if(os.path.exists(self.outputFile)):
-			Tkinter.Label(self, text = ("Warning:\n" + self.outputFile + "\nalready exists"),fg = "red").pack()
-			Tkinter.Button(self, text = "Start anyway", command = self.quit).pack()
+                Tkinter.Label(self, text = ("Warning:\n" + self.outputFile + "\nalready exists"),fg = "red").pack()
+                Tkinter.Button(self, text = "Start anyway", command = self.quit).pack()
         else:
         	self.quit()
         

@@ -1,13 +1,18 @@
-# SART with audio feedback, and performance feedback
-# Written by Emma May 2012
-# no letter blocks
+# SART with audio and visual feedback
+# Written by Emma Ferneyhough, May 2012
 # 56 trials per block
 # 30 total blocks
 # breaks after every 5 blocks (5 breaks total)
 
-# TO DO
-# 1) if there is no response by the end of a block, program crashes
+# a short tone is played if RT variability increases above a set threshold
+# at each break, a graphic of two bars displays how performance has improved
+# or worsened compared to all previous blocks. the top bar displays information
+# about number of commission errors (number of times the person pressed
+# the button when they were supposed to withold their response), and the bottom
+# bar displays information about reaction time.
 
+# the participant's goal is to minimize commission errors while
+# maximizing their reaction time.
 
 ############################
 #  Import various modules  #
@@ -20,9 +25,7 @@ from VisionEgg.Core import *
 from VisionEgg.FlowControl import Presentation
 from VisionEgg.Text import Text
 from VisionEgg.WrappedText import WrappedText
-##from VisionEgg.ResponseControl import *
 from VisionEgg.MoreStimuli import *
-##from VisionEgg.GUI import *
 
 import time
 from platform import platform
@@ -31,7 +34,7 @@ import numpy as np
 
 import sys
 import audiere  # for audio feedback
-sys.path.append('../VEextras')
+sys.path.append('Extras')
 
 # the following modules are from VEextras
 import inputGui
@@ -75,7 +78,7 @@ inputGUI.destroy()
 # Times set in seconds
 cueDur = 2.40
 fixDur = 0.40
-digitDur = 0.25 #should be .25
+digitDur = 0.25
 mask2Dur = .900
 iti = (0.750, 0.850, 0.950, 1.050)
 
@@ -836,9 +839,6 @@ for block in allBlocks:
 
             listOfAvgRTs.append(avgRT) # add the average rt to the comparisons list for the next feedback
 
-##            feedbackText = ("%s \n\n%s\n\nPress the [s] key to begin block %d/%d."
-##                            % (feedback, feedback2, (block + 2), len(allBlocks)))
-
             feedbackText = ("Press the [s] key to begin block %d/%d." % ((block + 2), len(allBlocks)))
             feedbackStim.parameters.text = feedbackText
 
@@ -913,7 +913,6 @@ for block in allBlocks:
         listOfPerfRatio.append(PerfRatio) # add the performance ratio to the comparison list for the next feedback
         print listOfPerfRatio
 
-##        feedbackText = ("%s \n\nYou're done! Please notify the experimenter." % feedback)
         feedbackText = "You're done! Please notify the experimenter."
         feedbackStim.parameters.text = feedbackText
 
@@ -946,12 +945,6 @@ for block in allBlocks:
 
         listOfAvgRTs.append(avgRT) # add the average rt to the comparisons list for the next feedback
         print listOfAvgRTs
-
-##            feedbackText = ("%s \n\n%s\n\nPress the [s] key to begin block %d/%d."
-##                            % (feedback, feedback2, (block + 2), len(allBlocks)))
-
-##        feedbackText = ("Press the [s] key to begin block %d/%d." % ((block + 2), len(allBlocks)))
-##        feedbackStim.parameters.text = feedbackText
 
         viewport_feedback.draw()
         viewport_worse.draw()   # Errors

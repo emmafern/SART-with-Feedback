@@ -1,0 +1,58 @@
+Run, Block, Event, TimeOn, TimeOff, Digit, RT,Commission, Omission, TotalCommission, ITI, Fdbk, Notes 
+PracNumber,1,cue,0.00000,2.80147,0,0.00000,0,0,0,0.85,0,0
+PracNumber,1,digit,2.80147,3.05148,6,0.49604,0,0,3,0.85,0,baseline
+PracNumber,1,digit,3.90148,4.15149,6,0.37129,0,0,3,0.95,0,baseline
+PracNumber,1,digit,5.10150,5.35150,1,0.27909,0,0,3,0.95,0,baseline
+PracNumber,1,digit,6.30151,6.55151,2,0.28221,0,0,3,0.85,0,baseline
+PracNumber,1,digit,7.40151,7.65152,3,0.36642,1,0,3,0.85,0,trial 5
+PracNumber,1,digit,8.50153,8.75153,8,0.35997,0,0,3,0.85,0,baseline
+PracNumber,1,digit,9.60153,9.85154,5,0.38157,0,0,3,0.75,0,0.0638876667663
+PracNumber,1,digit,10.60155,10.85155,4,0.37475,0,0,3,0.95,0,test
+PracNumber,1,digit,11.80156,12.05156,2,0.32190,0,0,3,1.05,0,test
+PracNumber,1,digit,13.10157,13.35157,4,0.34023,0,0,3,0.85,0,test
+PracNumber,1,digit,14.20158,14.45158,3,0.34928,1,0,3,1.05,0,trial 11
+PracNumber,1,digit,15.50159,15.75160,7,0.25847,0,0,3,0.85,0,test
+PracNumber,1,digit,16.60160,16.85160,7,0.31886,0,0,3,1.05,0,test
+PracNumber,1,digit,17.90161,18.15161,4,0.32383,0,0,3,0.95,0,0.0436599628788
+PracNumber,1,digit,19.10162,19.35162,4,0.47945,0,0,3,0.95,0,test
+PracNumber,1,digit,20.30163,20.55163,2,0.39070,0,0,3,1.05,0,test
+PracNumber,1,digit,21.60164,21.85165,7,0.30709,0,0,3,0.85,0,test
+PracNumber,1,digit,22.70165,22.95166,1,0.28611,0,0,3,0.75,0,test
+PracNumber,1,digit,23.70166,23.95167,1,0.38112,0,0,3,1.05,0,test
+PracNumber,1,digit,25.00167,25.25167,2,0.32719,0,0,3,0.75,1,tone
+PracNumber,1,digit,26.97955,27.22956,6,0.29747,0,0,3,0.95,0,free
+PracNumber,1,digit,28.17956,28.42957,1,0.40492,0,0,3,0.85,0,free
+PracNumber,1,digit,29.27957,29.52958,6,0.34864,0,0,3,0.85,0,free
+PracNumber,1,digit,30.37958,30.62959,1,0.41375,0,0,3,0.95,0,free
+PracNumber,1,digit,31.57960,31.82960,9,0.32051,0,0,3,1.05,0,baseline
+PracNumber,1,digit,32.87961,33.12961,6,0.27450,0,0,3,1.05,0,baseline
+PracNumber,1,digit,34.17962,34.42962,2,0.27578,0,0,3,0.75,0,baseline
+PracNumber,1,digit,35.17963,35.42963,2,0.37927,0,0,3,0.85,0,baseline
+PracNumber,1,digit,36.27964,36.52964,3,0.31354,1,0,3,0.95,0,trial 29
+PracNumber,1,digit,37.47965,37.72965,4,0.33217,0,0,3,0.85,0,baseline
+PracNumber,1,digit,38.57966,38.83602,6,0.43036,0,0,3,0.85,0,0.0592173769159
+PracNumber,1,digit,39.67967,39.92968,5,0.41108,0,0,3,0.75,0,test
+PracNumber,1,digit,40.67968,40.92968,4,0.46610,0,0,3,0.95,0,test
+PracNumber,1,digit,41.87969,42.12969,8,0.34751,0,0,3,0.85,0,test
+PracNumber,1,digit,42.97970,43.22971,1,0.43066,0,0,3,0.85,0,test
+PracNumber,1,digit,44.07971,44.32971,2,0.42040,0,0,3,0.95,0,test
+PracNumber,1,digit,45.27972,45.52973,6,0.36219,0,0,3,1.05,0,0.0650459396954
+PracNumber,1,digit,46.57973,46.82973,1,0.38521,0,0,3,0.75,0,test
+PracNumber,1,digit,47.57974,47.82975,1,0.49267,0,0,3,1.05,0,test
+PracNumber,1,digit,48.87975,49.12975,4,0.44168,0,0,3,0.85,0,test
+PracNumber,1,digit,49.97976,50.22977,8,0.45942,0,0,3,0.85,0,test
+PracNumber,1,digit,51.07977,51.32978,9,0.44263,0,0,3,1.05,0,test
+PracNumber,1,digit,52.37978,52.62978,5,0.32476,0,0,3,0.95,0,test
+PracNumber,1,digit,53.57979,53.82980,9,0.41170,0,0,3,0.85,0,test
+PracNumber,1,digit,54.67980,54.92980,3,0.00000,0,0,3,0.85,0,trial 45
+PracNumber,1,digit,55.77981,56.02981,6,0.29334,0,0,3,0.75,0,test
+PracNumber,1,digit,56.77982,57.02982,2,0.41674,0,0,3,0.75,0,test
+PracNumber,1,digit,57.77983,58.02984,4,0.52724,0,0,3,0.85,0,test
+PracNumber,1,digit,58.87984,59.12984,3,0.00000,0,0,3,0.95,0,trial 49
+PracNumber,1,digit,60.07985,60.32985,2,0.29091,0,0,3,1.05,0,test
+PracNumber,1,digit,61.37986,61.62986,4,0.26118,0,0,3,0.75,0,test
+PracNumber,1,digit,62.37987,62.62987,5,0.37870,0,0,3,0.95,1,tone
+PracNumber,1,digit,64.38091,64.63092,1,0.38722,0,0,3,0.85,0,free
+PracNumber,1,digit,65.48093,65.73093,8,0.37140,0,0,3,0.75,0,free
+PracNumber,1,digit,66.48094,66.73094,2,0.44281,0,0,3,0.75,0,free
+PracNumber,1,digit,67.48095,67.73095,7,0.42852,0,0,3,0.85,0,free
